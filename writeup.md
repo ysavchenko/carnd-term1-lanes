@@ -35,6 +35,7 @@ Below I've added an illustration for the method of grouping lines with different
 
 ![Line slope bins illustration][image1]
 
+**Update:** After the first project review I've also used my reviewer's idea to add line smoothing when processing videos. Basically it saves previously detected left and right lane lines and averages it with the lines detected on the current frame. This made lines less shaky. The code for this can be found in `smooth_lines` and `avg_lines` functions.
 
 ### 2. Identify potential shortcomings with your current pipeline
 
